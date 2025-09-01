@@ -68,11 +68,12 @@ if __name__ == "__main__":
 
     # --- SEND IT AS A TEXT TO YOUR OWN VERIZON NUMBER ---
     # Replace these with your info:
-    YOUR_NUMBER = "7322898665"        # e.g. "7322898665"
-    GMAIL_ADDR  = "dankanimeallover@gmail.com"
-    APP_PASS    = "avpgeekbdwoxroir"   # from Google App Passwords
+    YOUR_NUMBER = "YOUR_NUMBER_HERE"        # e.g. "7322898445"
+    GMAIL_ADDR  = "YOUR_EMAIL_HERE"
+    APP_PASS    = "YOUR_APP_PASS"   # from Google App Passwords
 
     # Keep it short for SMS (Verizon truncates long messages)
     sms_msg = msg.strip()[:300]  # trim to ~300 chars to be safe
     send_sms_via_verizon(sms_msg, YOUR_NUMBER, GMAIL_ADDR, APP_PASS)
+
 
