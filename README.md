@@ -16,3 +16,7 @@ Extended the project with Gmail SMTP integration to deliver messages via Verizon
 - Easily customizable for other carriers (AT&T, T-Mobile, etc.)
 
 ## Example Output
+System Notice: Verification Required
+Case ID: e308cbb1-6811-4ca8-b681-aecf7a481f64
+Timestamp: 2025-09-01 10:43:38
+Status: SUCCESS [Code 200]
