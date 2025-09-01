@@ -20,3 +20,21 @@ System Notice: Verification Required
 Case ID: e308cbb1-6811-4ca8-b681-aecf7a481f64
 Timestamp: 2025-09-01 10:43:38
 Status: SUCCESS [Code 200]
+
+## How to Run
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/YOURUSERNAME/system-notification-generator.git
+Install Python 3.
+
+Replace placeholders with your Gmail address and App Password.
+
+Run: 
+python alerts.py
+Skills Demonstrated
+
+Python automation
+
+Networking (SMTP, SMS gateways)
+
+System logging
